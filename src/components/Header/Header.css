@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: aqua; */
+    padding:20px;
+}
+.tinder-logo{
+    font-size: 40px;
+    object-fit: contain;
+    color: rgb(255, 60, 0);
+}
+.header-icons{
+    color: rgb(172, 168, 168);
+}
