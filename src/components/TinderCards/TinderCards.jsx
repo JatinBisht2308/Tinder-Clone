@@ -51,7 +51,7 @@ const TinderCards = () => {
             <div className='card'  
             style={{backgroundImage: `url(${bike.url})`}}
             >
-             <h3>{bike.name}</h3>
+             <h1>{bike.name}</h1>
             </div>
           </TinderCard>
         ))

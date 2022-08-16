@@ -18,6 +18,10 @@
 .swipe{
     position: absolute;
 }
-.card>h3{
+.card>h1{
     color: white;
+    position: absolute;
+    bottom: 7vh;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
 }
