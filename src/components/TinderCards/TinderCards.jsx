@@ -1,7 +1,7 @@
 import React from 'react'
 import './TinderCard.css'
 import TinderCard from 'react-tinder-card';
-import { cardClasses } from '@mui/material';
+// import { cardClasses } from '@mui/material';
 const TinderCards = () => {
   // using hooks(hooks is nothing but just a function)
   const [bikes, setBikes] = React.useState([
@@ -41,7 +41,7 @@ const TinderCards = () => {
   ]);
       
   return (
-    <div className='tinder-cards'>
+    <div className='cards-container'>
      {
         bikes.map(bike => (
           <TinderCard className="swipe"
